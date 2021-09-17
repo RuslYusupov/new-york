@@ -1,0 +1,275 @@
+
+@font-face {
+    font-family: 'Open Sans-grid';
+    src: url('fonts/OpenSans-Regular.woff') format('woff');
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-image: url(img/banner.jpg);
+    min-height: 87vh; /* Header занимает 87% высоты всего экрана */
+    background-size: cover; /* Чтобы не расползался background и занимал всю площадь */
+    background-position: center; /* Центрируем background */
+}
+
+.header-logo {
+    flex: 1 1 1000px;
+    margin-left: 40%;
+    position: relative;
+    top: 69px;
+}
+
+.description {
+    flex: 1 1 1000px;
+    color: #fff;
+    text-align: center;
+    margin-top: 78px;
+}
+
+.description h1 {
+    font-size: 49px;
+    line-height: 62px;
+    font-family: Open Sans-grid, sans-serif;
+    font-weight: 400;
+}
+
+.intherightplace {
+    font-weight: 900;
+    
+}
+
+.zipcode {
+    flex: 1 1 26%;
+    margin-left: 37%;
+    margin-right: 37%;
+    background-color: #fff;
+    border: 1px solid white;
+    box-shadow: 0 1px 1px grey;
+    position: relative;
+    top: 62px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.enterzip {
+    width: 78%;
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 23px;
+    padding: 10px;
+}
+
+.places {
+    margin-top: 23px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.places img {
+    flex: 1 1 10px;
+}
+
+.textinzipblock {
+    margin-top: 27px;
+}
+
+.headerbutton {
+    margin-top: 27px;
+    margin-bottom: 28px;
+    background-color: #227dd3;
+    width: 57%;
+    color: #fff;
+    font-size: 26px;
+    line-height: 51px;
+    border: none;
+}
+
+.docs {
+    background-color: #fff;
+    padding-top: 170px;
+    padding-bottom: 109px;
+    font-family: Open Sans-grid, sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.docform {
+    flex: 0 1 30%;
+    display: flex;    
+}
+
+.camera {
+    flex: 0 1 30%;
+    display: flex;
+    margin-left: 40px;
+}
+
+.docform img, .camera img {
+    align-self: center;
+}
+
+.blockdoc {
+    padding-left: 27px;
+    padding-bottom: 15px;
+}
+
+.blockdoc h2 {
+    font-size: 27px;
+    line-height: 62px;
+}
+
+.blockdoc p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.blockphoto {
+    padding-left: 27px;
+    padding-bottom: 15px;
+}
+
+.blockphoto h2 {
+    font-size: 27px;
+    line-height: 62px;
+}
+
+.blockphoto p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.greenblock {
+    background-color: #5fc18b;
+    color: #fff;
+    font-family: Open Sans-grid, sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-image: 
+        url(img/1.png),
+        url(img/shadow1.png),
+        url(img/Shape30.png),
+        url(img/2.png),
+        url(img/Shadow.png);
+    background-repeat: no-repeat;
+    background-position:
+        50% 85px, /* Позиция первого изображения */
+        32.6% 10.6%, /* Позиция второго изображения */
+        100% 540px, /* Позиция третьего изображения */
+        18% 1001px, /* Позиция третьего изображения */
+        -13.9% 1001px; /* Позиция третьего изображения */
+}
+
+.blockone {
+   margin-left: 24%;
+   margin-right: 25%;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+}
+
+.greenheadtwofirst {
+    padding-top: 272px;
+    font-size: 39px;
+    line-height: 62px;
+}
+
+.greenparfirst {
+   font-size: 14px;
+   line-height: 23px;
+}
+
+.blocktwo {
+    margin-left: 44.5%;
+    margin-right: 16.8%;
+}
+
+.greenheadtwosecond {
+    padding-top: 315px;
+    font-size: 39px;
+    line-height: 62px;
+}
+
+.greenparsecond {
+    font-size: 14px;
+   line-height: 23px;
+}
+
+.downloadbutton {
+    margin-top: 43px;
+    background-color: transparent;
+    border: white 3px solid;
+    border-radius: 9px;
+    width: 41%;
+    font-size: 27px;
+    line-height: 62px;
+    color: white;
+    margin-bottom: 82px;
+    margin-bottom: 130px;
+}
+
+.mapblock {
+    position: relative;
+}
+
+.over_map {
+    
+}
+
+.rowContactIMG1 {
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    padding: 20px;
+    z-index: 99;
+}
+
+.rowContactIMG2 {
+    position: absolute;
+    top: 80%;
+    left: 46.9%;
+    z-index: 99;
+    background-image: url(img/Shape-5.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 68px;  
+    width: 68px;
+    border: none;
+}
+
+.contact-form-waiting {
+    position: absolute;
+    top: 43%;
+    left: 40%;
+    right: 45%;
+    z-index: 100;
+    
+}
+
+.form-control {
+    width: 100%;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 8px;
+    padding-left: 13px;
+    margin: 8px;
+}
+
+footer  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color:  #5fc18b;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+    line-height: 23px;
+}
